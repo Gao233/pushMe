@@ -15,6 +15,8 @@
 		305C19521E5E5C3C00E0D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305C19501E5E5C3C00E0D9EE /* Main.storyboard */; };
 		305C19541E5E5C3C00E0D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305C19531E5E5C3C00E0D9EE /* Assets.xcassets */; };
 		305C19571E5E5C3C00E0D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305C19551E5E5C3C00E0D9EE /* LaunchScreen.storyboard */; };
+		305C195F1E5E5E1A00E0D9EE /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C195E1E5E5E1A00E0D9EE /* GameElements.swift */; };
+		305C19611E5F929F00E0D9EE /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C19601E5F929F00E0D9EE /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		305C19531E5E5C3C00E0D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305C19561E5E5C3C00E0D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		305C19581E5E5C3C00E0D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305C195E1E5E5E1A00E0D9EE /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		305C19601E5F929F00E0D9EE /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				305C19481E5E5C3C00E0D9EE /* GameScene.sks */,
 				305C194A1E5E5C3C00E0D9EE /* Actions.sks */,
 				305C194C1E5E5C3C00E0D9EE /* GameScene.swift */,
+				305C19601E5F929F00E0D9EE /* GameOverScene.swift */,
+				305C195E1E5E5E1A00E0D9EE /* GameElements.swift */,
 				305C194E1E5E5C3C00E0D9EE /* GameViewController.swift */,
 				305C19501E5E5C3C00E0D9EE /* Main.storyboard */,
 				305C19531E5E5C3C00E0D9EE /* Assets.xcassets */,
@@ -148,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305C19611E5F929F00E0D9EE /* GameOverScene.swift in Sources */,
+				305C195F1E5E5E1A00E0D9EE /* GameElements.swift in Sources */,
 				305C194D1E5E5C3C00E0D9EE /* GameScene.swift in Sources */,
 				305C194F1E5E5C3C00E0D9EE /* GameViewController.swift in Sources */,
 				305C19471E5E5C3C00E0D9EE /* AppDelegate.swift in Sources */,
@@ -273,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MT7CSV95PR;
 				INFOPLIST_FILE = pushMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gao7uan.pushMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MT7CSV95PR;
 				INFOPLIST_FILE = pushMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gao7uan.pushMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
